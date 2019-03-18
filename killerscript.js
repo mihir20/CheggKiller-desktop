@@ -27,20 +27,3 @@ webview.addEventListener('dom-ready',()=>{
     }
 
 });
-
-// if (location.href == qustionUrl) {
-//     if(document.body.innerText.search(noQuesText)>0){
-//         chrome.runtime.sendMessage({ redirect: qustionUrl, load: true });
-//     }else{
-//         chrome.runtime.sendMessage({ load: false});
-//     }
-// }else if (location.href == captchaUrl){
-//     chrome.runtime.sendMessage({ redirect: qustionUrl , load: true});
-// }else if (location.href == otherCaptchaUrl){
-//     chrome.runtime.sendMessage({ redirect: qustionUrl , load: true});
-// }
-// else if (location.href == homeUrl){
-//     chrome.runtime.sendMessage({redirect: qustionUrl , load:true})
-// }else{
-//     chrome.runtime.sendMessage({redirect: qustionUrl, load:true})
-// }
