@@ -8,7 +8,7 @@ const dashboardURL = "https://www.chegg.com/my/expertqa"
 const webview = document.getElementById('webview')
 
 webview.addEventListener('dom-ready',()=>{
-    const currentURL = webview.getURL();
+    let currentURL = webview.getURL();
     if(currentURL == questionUrl){
         console.log('QUES URL');
         const title = webview.getTitle();
