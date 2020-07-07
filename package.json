@@ -10,6 +10,6 @@
   "author": "mihir gandhi",
   "license": "ISC",
   "dependencies": {
-    "electron": "^4.1.0"
+    "electron": "^9.1.0"
   }
 }
